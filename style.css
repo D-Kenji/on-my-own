@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    padding: 0px 100px;
+    font-family: Roboto;
+    background-color: #1F2937;
+    color: white;
+}
+.top{
+    display: flex;
+}
+.top ul{
+    margin-left: auto;
+    gap: 16px;
+    display: flex;
+    list-style: none;
+}
