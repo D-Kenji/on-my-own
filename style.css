@@ -11,7 +11,7 @@ body {
     padding-bottom: 50px;
     flex-grow: 1;
 }
-.call-to-acion{
+.call-to-action{
     background-color: #3882F6;
     width: 100px;
     color: white;
@@ -116,4 +116,37 @@ body {
     margin-right: 5px;
     font-weight: 300;
     font-size: 30px;
+}
+
+/* Call to action css */
+
+.signup{
+    flex-shrink: 0;
+    display:flex;
+    background-color: #3882F6;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 300px;
+    padding: 30px 20px;
+}
+
+.text p{
+    margin: 0;
+}
+.text-title{
+    font-weight: 700;
+}
+.text-description{
+    color: #E5E7EB;
+}
+.button{
+    display: flex;
+    justify-self: flex-end;
+    align-items: flex-end;
+}
+
+.button button {
+    border: 2px solid white;
+    margin-left: 150px;
 }
