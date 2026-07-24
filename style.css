@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+/* Header css */
 .header{
     padding: 0px 100px;
     font-family: Roboto;
@@ -22,20 +23,17 @@ body {
     font-size: 24px;
     color: #F9FAF8;
 }
-
 .titel{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
     margin: 0;
 }
-
 .description{
     margin-top: -5px;
     font-size: 18px;
     color: #E5E7EB;
 }
-
 .top{
     display: flex;
 }
@@ -55,8 +53,33 @@ body {
  flex-direction: column;
 }
 
-
 .right-side img{
     width: 300px;
     height: auto;
+}
+/* Information css */
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.image {
+    width: 130px;
+}
+.image p {
+    margin-top: -1px;
+    text-align: center;
+}
+.images img{
+    width: 130px;
+    height: 130px;
+    border-radius: 15%;
 }
