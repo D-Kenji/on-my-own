@@ -2,6 +2,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+.main-content{
+    flex:1
+}
 /* Header css */
 .header{
     padding: 0px 200px;
@@ -149,4 +152,17 @@ body {
 .button button {
     border: 2px solid white;
     margin-left: 150px;
+}
+
+/* Footer css */
+
+.footer{
+    flex: 0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding: 20px 0 20px 0;
 }
