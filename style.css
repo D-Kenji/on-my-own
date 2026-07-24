@@ -4,11 +4,12 @@ body {
 }
 /* Header css */
 .header{
-    padding: 0px 100px;
+    padding: 0px 200px;
     font-family: Roboto;
     background-color: #1F2937;
     color: white;
     padding-bottom: 50px;
+    flex-grow: 1;
 }
 .call-to-acion{
     background-color: #3882F6;
@@ -36,6 +37,7 @@ body {
 }
 .top{
     display: flex;
+    align-items: center;
 }
 .top ul{
     margin-left: auto;
@@ -46,20 +48,23 @@ body {
 
 .bottom{
     display: flex;
+    justify-content: space-between;
 }
 
 .left-side{
  display: flex;
  flex-direction: column;
+ width: 400px;
 }
 
 .right-side img{
-    width: 300px;
+    width: 400px;
     height: auto;
 }
 /* Information css */
 
 .information{
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,7 +72,7 @@ body {
 
 .images {
     display: flex;
-    gap: 16px;
+    gap: 32px;
     justify-content: center;
 }
 
@@ -82,4 +87,33 @@ body {
     width: 130px;
     height: 130px;
     border-radius: 15%;
+}
+
+/* Quote css */
+.quote-sector{
+    display: flex;
+    flex: 1 0 0;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 50px 50px;
+    text-align: left;
+}
+
+.quote-text{
+    width: 616px;
+    display: flex;
+    flex-direction: column;
+}
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+.author{
+    margin-top: -100px;
+    align-self: flex-end;
+    margin-right: 5px;
+    font-weight: 300;
+    font-size: 30px;
 }
