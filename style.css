@@ -7,7 +7,35 @@ body {
     font-family: Roboto;
     background-color: #1F2937;
     color: white;
+    padding-bottom: 50px;
 }
+.call-to-acion{
+    background-color: #3882F6;
+    width: 100px;
+    color: white;
+    font-size: 14px;
+    border: none;
+    margin-top: -5px;
+    border-radius: 1em;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.titel{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.description{
+    margin-top: -5px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .top{
     display: flex;
 }
@@ -16,4 +44,19 @@ body {
     gap: 16px;
     display: flex;
     list-style: none;
+}
+
+.bottom{
+    display: flex;
+}
+
+.left-side{
+ display: flex;
+ flex-direction: column;
+}
+
+
+.right-side img{
+    width: 300px;
+    height: auto;
 }
